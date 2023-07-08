@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(black, #EFB0C9);
+    color: #ffffff;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border: 10px solid pink;
+}
+
+.years,.date{
+    background-color: pink;
+    padding: 10px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+
+.gift-img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(images/gift\ cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+#gift-img-happy:hover{
+    background-image: url(images/Happy.gif);
+}
+
+#gift-img-hot:hover{
+    background-image: url(images/hot.gif) ;
+}
+
+#gift-img-genius:hover {
+    background-image: url(images/Genius.gif);
+}
+
+#gift-img-badass:hover {
+    background-image: url(images/badass.gif);
+}
+
+#gift-img-cheers:hover {
+    background-image: url(images/cheers.gif);
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#footer{
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a{
+    color: white;
+    font-style: italic;
+}
+
